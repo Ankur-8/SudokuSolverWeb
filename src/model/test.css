@@ -21,11 +21,12 @@ body {
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
-    padding: 5px;
-    background-color: black;
+    padding: 100px;
+    background-color: #e2b4e3;
     width: fit-content;
     row-gap: 2px;
     column-gap: 2px;
+    float: left;
 }
 
 .prob3x3 {
@@ -35,5 +36,20 @@ body {
 }
 
 .ansGrid {
-    
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    padding: 100px;
+    background-color: #e2b4e3;
+    width: fit-content;
+    row-gap: 2px;
+    column-gap: 2px;
+    float: right;
+}
+
+.img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
