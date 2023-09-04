@@ -24,10 +24,11 @@ body {
 
 .grids {
   align-items: center;
-  margin: 140px;
+  padding: 100px;
 }
 
 .problemGrid {
+  float: left;
   display: grid;
   grid-template-columns: 150px 150px 150px;
   background-color: #060606;
@@ -35,6 +36,21 @@ body {
   column-gap: 2px;
   row-gap: 2px;
   width: fit-content;
+  margin: 40px 80px 10px 8px;
+
+}
+
+.answerGrid {
+  float: right;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  background-color: #060606;
+  padding: 5px;
+  column-gap: 2px;
+  row-gap: 2px;
+  width: fit-content;
+  margin: 40px 80px 10px 8px;
+
 }
 
 .box {
