@@ -25,6 +25,7 @@ body {
 .grids {
   align-items: center;
   padding: 100px;
+  display: flex;
 }
 
 .problemGrid {
