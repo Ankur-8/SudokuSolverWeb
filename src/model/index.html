@@ -1,43 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  
 <head>
-  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Diet Planner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
+
 <body>
-    <link href="index.css" rel = "stylesheet">
-<div class="wrapper fadeInDown">
-    <div id="formContent">
-      <!-- Tabs Titles -->
-      <h2 class="active"> Sign In </h2>
-      <a href="sign_up.html"><h2 class="inactive underlineHover">Sign Up </h2></a>
-
-  
-      <!-- Icon -->
-      <div class="fadeIn first">
-        <img src="https://i.pinimg.com/736x/24/44/3a/24443aff99bceb5a3ea91575db3c1bfb.jpg" id="icon" alt="User Icon" />
-      </div>
-  
-      <!-- Login Form -->
-      <form>
-        <input type="text" id="username" class="fadeIn second" name="username" placeholder="username">
-        <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
-        <input type="submit" class="fadeIn fourth" value="Sign in"  onclick="checkInfo()">
-        <input type="checkbox" onclick="showPass()">Show Password
-
-
-      </form>
-  
-      <!-- Remind Passowrd -->
-      <div id="formFooter">
-        <a class="underlineHover" href="password.html">Forgot Password?</a>
-      </div>
-  
+    <div class="heading">
+        <h1>Sudoku Solver</h1>
     </div>
-  </div>
-  <script src="index.js"></script>
 
-  </body>
+    <div class="Grids">
+        <div class="problemGrid">
+            <div class="box", id="1">1</div>
+            <div class="box", id="2">2</div>
+            <div class="box", id="3">3</div>
+            <div class="box", id="4">4</div>
+            <div class="box", id="5">5</div>
+            <div class="box", id="6">6</div>
+            <div class="box", id="7">7</div>
+            <div class="box", id="8">8</div>
+            <div class="box", id="9">9</div>
+        </div>
+        <div class="problemGrid">
+            <div class="box", id="1">9</div>
+            <div class="box", id="2">8</div>
+            <div class="box", id="3">7</div>
+            <div class="box", id="4">6</div>
+            <div class="box", id="5">5</div>
+            <div class="box", id="6">4</div>
+            <div class="box", id="7">3</div>
+            <div class="box", id="8">2</div>
+            <div class="box", id="9">1</div>
+        </div>
+    </div>
+    
+ 
+</body>
+</html>
